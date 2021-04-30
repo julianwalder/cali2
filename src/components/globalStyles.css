@@ -100,7 +100,7 @@ pre code:after {
 blockquote {
   margin-left: 0;
   padding-left: 1em;
-  line-height: 1.1;
+  line-height: 1.5;
   font-size: 1em;
   font-style: italic;
   border-left: 2px solid var(--primary);

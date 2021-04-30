@@ -16,6 +16,7 @@
 
 .PageHeader--Title {
   font-size: 6rem;
+  text-transform: uppercase;
   font-weight: 600;
   color: #0c233f;
   line-height: 110%;
