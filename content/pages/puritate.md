@@ -3,7 +3,7 @@ template: PuritatePage
 slug: puritate
 title: Apă pură de la natură
 featuredImage: https://ucarecdn.com/5a20b5d9-c447-4ca1-9706-c912d37faed4/-/preview/-/enhance/54/
-subtitle: Cu un pH identic cu cel al sângelui nostru
+subtitle: Un pH identic cu cel al sângelui nostru
 section1: >-
   ## This is a container component
 
