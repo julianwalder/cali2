@@ -2,7 +2,7 @@
 template: HomePage
 slug: ""
 title: IZVOARELE CĂLIMANI
-featuredImage: https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/
+featuredImage: https://ucarecdn.com/9cbe678c-801e-47ba-88a3-c0e885fdc841/
 subtitle: >-
   ## Din natura sălbatică în jungla urbană
 
