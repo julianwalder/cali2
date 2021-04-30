@@ -4,8 +4,19 @@
   top: 0;
   z-index: 2;
   border-bottom: 1px solid var(--lightGrey);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);}
+
+  @media (min-width: 600px) {
+  .Nav {
+    position: sticky;
+    margin-top: -60px;
+    backdrop-filter: saturate(100%) blur(20px);
+    background-color: rgba(0, 0, 0, 0.025);
+    border-bottom: 0px solid var(--lightGrey);
+
+  }
 }
+
 
 .Nav--Container {
   display: flex;
