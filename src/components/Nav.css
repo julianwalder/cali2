@@ -26,6 +26,7 @@
 
 .Nav--Links {
   display: flex;
+  text-transform: uppercase !important;
   align-items: center;
   justify-content: center;
   flex-direction: row;

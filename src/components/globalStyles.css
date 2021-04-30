@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400, 600');
+
 :root {
   --primary: #00c2bd;
   --secondary: #000;
@@ -5,8 +7,8 @@
   --midGrey: #cacaca;
   --darkGrey: #272727;
   --danger: #ff3d3d;
-  --font-primary: 'Open Sans', sans-serif;
-  --font-system: system-ui; /* postcssPresetEnv */
+  --font-primary: 'Raleway', sans-serif;
+  --font-system: 'Raleway'; /* postcssPresetEnv */
   --borderRadius: 3px;
 }
 
