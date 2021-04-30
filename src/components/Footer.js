@@ -11,8 +11,8 @@ export default () => (
     <footer className="footer">
       <div className="container taCenter">
         <span>
-          © Copyright {new Date().getFullYear()} All rights reserved. Crafted by{' '}
-          <a href="https://thriveweb.com.au/">Thrive</a>.
+          © {new Date().getFullYear()} Toate drepturile rezervate. {' '}
+          <a href="https://aqua-bilbor.ro">Aqua Bilbor S.A.</a>.
         </span>
       </div>
     </footer>
