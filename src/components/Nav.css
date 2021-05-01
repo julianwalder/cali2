@@ -35,6 +35,14 @@
   flex-direction: row;
 }
 
+.Nav--Links.menuwhite {
+  color: #d8c69d;
+}
+
+.Nav--Links.menublack {
+  color: var(--secondary);
+}
+
 .Nav--Links > * + * {
   margin-left: 1rem;
 }

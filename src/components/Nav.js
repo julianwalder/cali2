@@ -70,7 +70,7 @@ export class Navigation extends Component {
           >
             <Logo />
           </Link>
-          <div className="Nav--Links">
+          <div className="Nav--Links menublack">
             <NavLink to="/">Acasă</NavLink>
             <NavLink to="/puritate/">Puritate</NavLink>
             <NavLink to="/components/">Components</NavLink>
