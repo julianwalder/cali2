@@ -29,7 +29,7 @@ export const PuritatePageTemplate = ({
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-    <section className="section">
+    <section className="section narrow">
       <div className="container">
         <Content source={section1} />
       </div>

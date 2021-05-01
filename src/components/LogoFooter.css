@@ -1,10 +1,9 @@
-.Logo {
+.LogoFooter {
   display: flex;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 4rem;
-  width: 4rem;
+  height: 8rem;
   align-items: center;
   justify-content: center;
 }

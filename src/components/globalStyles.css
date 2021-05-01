@@ -2,7 +2,7 @@
 
 :root {
   --primary: #0c9afa;
-  --secondary: #000;
+  --secondary: #0c233f;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
   --darkGrey: #272727;
@@ -139,6 +139,12 @@ blockquote {
 .taCenter {
   text-align: center;
 }
+
+.fontmic {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
 .taLeft {
   text-align: left;
 }
@@ -155,10 +161,15 @@ blockquote {
 /* Layout */
 
 .section {
-  width: 60%;
-  margin: auto;
+
+
   padding: 5rem 0;
   border-bottom: 1px solid #f1f1f1;
+}
+
+.narrow {
+  max-width: 750px;
+  margin: auto;
 }
 
 .section:last-child {

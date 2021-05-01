@@ -2,9 +2,22 @@
   padding: 2rem 0;
   background: var(--lightGrey);
   font-size: 1.2rem;
+  height: 100vh;
+  background: var(--secondary);
 }
 
 .footer a {
-  color: black;
+  color: #d8c69d;
+
   text-decoration: none;
+}
+
+.footernew {
+  color: #d8c69d;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
 }
