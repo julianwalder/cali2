@@ -443,59 +443,59 @@ collections: # A list of collections the CMS should be able to edit
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
   - name: products
-      label: Product
-      editor:
-        preview: true
-      folder: content/products
-      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-      create: true # Allow users to create new documents in this collection
-      fields: # The fields each document in this collection have
-        - { label: Template, name: template, widget: hidden, default: SingleProduct }
-        - { label: Title, name: title, widget: string }
-        - label: 'Status'
-          name: 'status'
-          widget: 'select'
-          options: ['Published', 'Featured', 'Draft']
-          default: 'Published'
-        - { label: Date / Order, name: date, widget: date, format: 'YYYY-MM-DD' }
-        - {
-            label: Featured Image,
-            name: featuredImage,
-            widget: image,
-            required: false,
-          }
-        - { label: Excerpt, name: excerpt, widget: text }
-        - { label: Content, name: body, widget: markdown }
-        - label: 'Categories'
-          name: 'categories'
-          widget: 'list'
-          required: false
-          fields:
-            - label: 'Category'
-              name: 'category'
-              widget: 'relation'
-              collection: 'productCategories'
-              searchFields: ['title']
-              valueField: 'title'
-        - label: 'Meta'
-          required: false
-          name: 'meta'
-          widget: 'object'
-          fields:
-            - { label: Title, name: title, widget: string, required: false }
-            - {
-                label: Description,
-                name: description,
-                widget: text,
-                required: false,
-              }
-            - {
-                label: Canonical Link,
-                name: canonicalLink,
-                widget: string,
-                required: false,
-              }
-            - { label: Noindex, name: noindex, widget: boolean, required: false }
+    label: Product
+    editor:
+      preview: true
+    folder: content/products
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: Template, name: template, widget: hidden, default: SingleProduct }
+      - { label: Title, name: title, widget: string }
+      - label: 'Status'
+        name: 'status'
+        widget: 'select'
+        options: ['Published', 'Featured', 'Draft']
+        default: 'Published'
+      - { label: Date / Order, name: date, widget: date, format: 'YYYY-MM-DD' }
+      - {
+          label: Featured Image,
+          name: featuredImage,
+          widget: image,
+          required: false,
+        }
+      - { label: Excerpt, name: excerpt, widget: text }
+      - { label: Content, name: body, widget: markdown }
+      - label: 'Categories'
+        name: 'categories'
+        widget: 'list'
+        required: false
+        fields:
+          - label: 'Category'
+            name: 'category'
+            widget: 'relation'
+            collection: 'productCategories'
+            searchFields: ['title']
+            valueField: 'title'
+      - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
+          - { label: Noindex, name: noindex, widget: boolean, required: false }
 
   - name: postCategories
     label: Post Category
