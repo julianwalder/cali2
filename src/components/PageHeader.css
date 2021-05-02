@@ -1,7 +1,7 @@
 .PageHeader {
-  background-color: var(--darkGrey);
+  background-color: var(--white);
   color: white;
-  padding: 30vh 0;
+  padding: 25vh 0;
   height: 100vh;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .PageHeader--Title {
-  font-size: 6rem;
+  font-size: max(7.5vh, 7.5vw);
   text-transform: uppercase;
   font-weight: 600;
   color: #0c233f;
@@ -25,8 +25,8 @@
 
 .PageHeader--Subtitle {
   font-weight: 400;
-  font-size: 2.6rem;
-  line-height: 150%;
+  font-size: max(2.5vh, 2.5vw);
+  line-height: 110%;
   color: #0c233f;
 }
 
@@ -36,9 +36,15 @@
 
 @media (max-width: 600px) {
   .PageHeader {
-    padding: 7rem 0;
+    padding: 30vh 0;
   }
   .PageHeader-large {
     padding: 12.5rem 0;
   }
+}
+@media (min-width: 600px) {
+.herotext {
+  max-width: 75%;
+  margin-left: 6vw;
+}
 }

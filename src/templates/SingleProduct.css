@@ -1,0 +1,78 @@
+.SingleProduct {
+  background: white;
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+
+.SingleProduct--BackButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+.SingleProduct--BackButton svg {
+  transition: transform 0.2s ease-out;
+  transform: translateX(0);
+  height: 1.2em;
+}
+
+.SingleProduct--BackButton:hover svg,
+.SingleProduct--BackButton:focus svg {
+  transform: translateX(-0.25em);
+}
+
+.SingleProduct--Content {
+  background: white;
+  padding: 8rem 8rem 4rem 8rem;
+}
+
+@media screen and (max-width: 750px) {
+  .SingleProduct--Content {
+    padding: 4rem 2rem;
+  }
+}
+
+.SingleProduct--Meta {
+  font-size: 1rem;
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.SingleProduct--Meta > * + * {
+  margin-left: 0.75em;
+}
+
+.SingleProduct--Title {
+  text-align: center;
+  line-height: 1.2;
+}
+
+.SingleProduct--InnerContent {
+  padding: 0 8rem;
+}
+
+@media screen and (max-width: 750px) {
+  .SingleProduct--InnerContent {
+    padding: 0;
+  }
+}
+
+.SingleProduct--Pagination {
+  margin: 4rem 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SingleProduct--Pagination--Link {
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.SingleProduct--Pagination--Link.next {
+  margin-left: auto;
+}

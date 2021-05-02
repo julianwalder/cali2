@@ -1,0 +1,38 @@
+.ProductCard {
+  text-decoration: none;
+  background: rgba(216,198,157, 0.5);
+  color: inherit;
+  border: 0px solid var(--lightGrey);
+  border-radius: var(--borderRadius);
+  box-shadow: 0 2px 0px rgba(216,198,157, 0.5);
+  transition: all 0.15s ease-in-out;
+  overflow: hidden;
+}
+
+.ProductCard:hover,
+.ProductCard:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 0px rgba(216,198,157, 0.5);
+}
+
+.ProductCard--Image {
+  margin: 0 0 2rem 0;
+  width: 100%;
+  height: 40rem;
+}
+
+.ProductCard--Title {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.ProductCard--Content {
+  padding: 0 2.5rem 2.5rem;
+}
+
+.ProductCard--Category {
+  font-size: 1.2rem;
+  min-height: 1.2em;
+  line-height: 1;
+  margin: 0.5em 0;
+}

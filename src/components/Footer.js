@@ -4,11 +4,6 @@ import './Footer.css'
 
 export default () => (
   <div>
-    <h2 className="taCenter fontmic">
-      Urmărește-ne pe insta{' '}
-      <a href="https://instagram.com/izvoarelecalimani/">@izvoarelecalimani</a>
-    </h2>
-    <br />
     <footer className="footer">
       <div className="container taCenter footernew">
         <span>

@@ -139,6 +139,45 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
+      - file: 'content/pages/catalog.md'
+        label: 'Catalog Page'
+        name: 'catalog-page'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: CatalogIndex,
+            }
+          - { label: Slug, name: slug, widget: hidden, default: 'catalog' }
+          - { label: Title, name: title, widget: string }
+          - { label: Featured Image, name: featuredImage, widget: image }
+          - { label: Subtitle, name: subtitle, widget: markdown }
+          - label: 'Meta'
+            required: false
+            name: 'meta'
+            widget: 'object'
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  label: Noindex,
+                  name: noindex,
+                  widget: boolean,
+                  required: false,
+                }
+
       - file: 'content/pages/components.md'
         label: 'Components Page'
         name: 'components-page'
@@ -403,6 +442,60 @@ collections: # A list of collections the CMS should be able to edit
               required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
+  - name: products
+      label: Product
+      editor:
+        preview: true
+      folder: content/products
+      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+      create: true # Allow users to create new documents in this collection
+      fields: # The fields each document in this collection have
+        - { label: Template, name: template, widget: hidden, default: SingleProduct }
+        - { label: Title, name: title, widget: string }
+        - label: 'Status'
+          name: 'status'
+          widget: 'select'
+          options: ['Published', 'Featured', 'Draft']
+          default: 'Published'
+        - { label: Date / Order, name: date, widget: date, format: 'YYYY-MM-DD' }
+        - {
+            label: Featured Image,
+            name: featuredImage,
+            widget: image,
+            required: false,
+          }
+        - { label: Excerpt, name: excerpt, widget: text }
+        - { label: Content, name: body, widget: markdown }
+        - label: 'Categories'
+          name: 'categories'
+          widget: 'list'
+          required: false
+          fields:
+            - label: 'Category'
+              name: 'category'
+              widget: 'relation'
+              collection: 'productCategories'
+              searchFields: ['title']
+              valueField: 'title'
+        - label: 'Meta'
+          required: false
+          name: 'meta'
+          widget: 'object'
+          fields:
+            - { label: Title, name: title, widget: string, required: false }
+            - {
+                label: Description,
+                name: description,
+                widget: text,
+                required: false,
+              }
+            - {
+                label: Canonical Link,
+                name: canonicalLink,
+                widget: string,
+                required: false,
+              }
+            - { label: Noindex, name: noindex, widget: boolean, required: false }
 
   - name: postCategories
     label: Post Category
@@ -413,6 +506,43 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: Template, name: template, widget: hidden, default: BlogIndex }
+      - { label: Title, name: title, widget: string }
+      - { label: Subtitle, name: subtitle, widget: string, required: false }
+      - {
+          label: Featured Image,
+          name: featuredImage,
+          widget: image,
+          required: false,
+        }
+      - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
+          - { label: Noindex, name: noindex, widget: boolean, required: false }
+
+  - name: productCategories
+    label: Product Category
+    editor:
+      preview: false
+    folder: content/productCategories
+    slug: '{{slug}}'
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: Template, name: template, widget: hidden, default: CatalogIndex }
       - { label: Title, name: title, widget: string }
       - { label: Subtitle, name: subtitle, widget: string, required: false }
       - {
