@@ -102,12 +102,6 @@ module.exports = {
     },
     'gatsby-plugin-sitemap',
     {
-      resolve: `gatsby-source-instagram-all`,
-      options: {
-        access_token: "IGQVJVYkhFS200QTNQb1M1M2QwMHd3QVM4YnhjVU1vdEJQcUtEUV9zcl9pb1BFNm9ldjdZAS1gtNkYzb1FsMFFyNmIxbDZAiRllwdHhBekM1bVFYUUE0Vldzc29aX0NDLWo3Vkd0VW91clI4b2xETG1HRQZDZD",
-      }
-    },
-    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
