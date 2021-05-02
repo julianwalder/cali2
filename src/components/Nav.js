@@ -58,7 +58,7 @@ export class Navigation extends Component {
       )
 
     return (
-      <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
+      <nav className={`Nav ${active ? 'Nav-active' : ' blurred'}`}>
         <div className="Nav--Container container">
           <Link
             to="/"
