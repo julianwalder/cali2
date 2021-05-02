@@ -2,12 +2,11 @@
 template: SingleProduct
 title: 0,5 L
 status: Published
-date: '2018-05-26'
-featuredImage: 'https://ucarecdn.com/bd5d1edc-73be-488a-9d50-8ec28f5ab6a9/'
-excerpt: >-
-  This is placeholder text that our web designers put here to make sure words
-  appear properly on your website. This text is going to be replaced once the
-  website is completed. You are currently reading text that is written in
+date: 2018-05-26
+featuredImage: https://ucarecdn.com/6f2140db-fd8c-4c20-b88b-f6f2388ad25b/-/preview/-/enhance/50/
+excerpt: This is placeholder text that our web designers put here to make sure
+  words appear properly on your website. This text is going to be replaced once
+  the website is completed. You are currently reading text that is written in
   English, not any other language.
 categories:
   - category: Plată
@@ -15,7 +14,6 @@ meta:
   description: test meta description
   title: test meta title
 ---
+![Alt text](https://ucarecdn.com/4fbc050c-c620-4715-b5f0-38212871004e/ "Fata cu apa")
 
-This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
-
-Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website. This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.
+Apa face bine, apa face bine, bea apă.
