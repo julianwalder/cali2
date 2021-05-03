@@ -9,7 +9,7 @@ excerpt: This is placeholder text that our web designers put here to make sure
   the website is completed. You are currently reading text that is written in
   English, not any other language.
 categories:
-  - category: Plată
+  - category: APĂ PLATĂ
 meta:
   description: test meta description
   title: test meta title

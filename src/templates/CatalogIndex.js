@@ -159,7 +159,7 @@ export const pageQuery = graphql`
     }
     productCategories: allMarkdownRemark(
       filter: { fields: { contentType: { eq: "productCategories" } } }
-      sort: { order: ASC, fields: [frontmatter___title] }
+      sort: { order: DESC, fields: [frontmatter___title] }
     ) {
       edges {
         node {

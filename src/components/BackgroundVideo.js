@@ -59,7 +59,9 @@ class BackgroundVideo extends Component {
               {children}
             </video>
             {videoTitle && (
+              <div className="herotext">
               <div className="BackgroundVideo--videoTitle">{videoTitle}</div>
+              </div>
             )}
           </div>
         )}

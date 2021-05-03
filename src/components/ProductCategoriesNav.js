@@ -7,7 +7,7 @@ import './ProductCategoriesNav.css'
 const ProductCategoriesNav = ({ categories, enableSearch }) => (
   <div className="ProductCategoriesNav">
     <Link className="NavLink" exact="true" to={`/catalog/`}>
-      All
+      TOATE
     </Link>
     {categories.map((category, index) => (
       <Link

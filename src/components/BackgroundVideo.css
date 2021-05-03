@@ -30,25 +30,31 @@
 .BackgroundVideo--videoTitle {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 6 vw;
   transform: translate(0, -50%);
-  font-size: 4rem;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px grey;
+  font-weight: 600;
+  width: 75%;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: max(7.5vh, 7.5vw);
+  color: #0c233f;
+  line-height: 110%;
+  margin-bottom: 0;
 }
 
 .Poster--videoTitle {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 6 vw;
   transform: translate(0, -50%);
-  font-size: 2rem;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px grey;
+  font-weight: 600;
+  width: 75%;
+  text-align: left;
+  text-transform: uppercase;
+  margin:auto;
+  font-size: max(7.5vh, 7.5vw);
+  color: #0c233f;
+  line-height: 110%;
+  margin-bottom: 0;
+
 }

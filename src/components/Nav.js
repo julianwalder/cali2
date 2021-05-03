@@ -71,10 +71,9 @@ export class Navigation extends Component {
             <Logo />
           </Link>
           <div className="Nav--Links menublack">
-            <NavLink to="/">Acasă</NavLink>
-            <NavLink to="/puritate/">Puritate</NavLink>
-            <NavLink to="/components/">Components</NavLink>
-            <NavLink to="/catalog/">Catalog</NavLink>
+            <NavLink to="/">Izvoarele Călimani</NavLink>
+            <NavLink to="/puritate/">Puritatea Apei</NavLink>
+            <NavLink to="/catalog/">Produsele Noastre</NavLink>
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -94,7 +93,7 @@ export class Navigation extends Component {
                 aria-label="Navigation"
                 role="button"
               >
-                Blog
+                Sănătate și hidratare
                 <div className="Nav--GroupLinks">
                   <NavLink to="/blog/" className="Nav--GroupLink">
                     All Posts
@@ -112,7 +111,6 @@ export class Navigation extends Component {
               </span>
             </div>
             
-            <NavLink to="/default/">Default</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button
