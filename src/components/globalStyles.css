@@ -253,3 +253,25 @@ blockquote {
   align-items: center;
   justify-content: center;
 }
+
+.homepagebox {
+  display: flex;
+  align-items: stretch;
+}
+
+.img {
+  width: 48vw;
+  background-image: url(/images/banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.content {
+  background: #fff;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4.861111111111111vw 6.944444444444445vw 4.861111111111111vw 6.944444444444445vw;
+    flex: 1;
+}

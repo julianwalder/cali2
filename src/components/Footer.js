@@ -4,6 +4,7 @@ import './Footer.css'
 
 export default () => (
   <div>
+    <div style= {{backgroundColor: 'white', height: '6rem',}}></div>
     <footer className="footer">
       <div className="container taCenter footernew">
         <span>
