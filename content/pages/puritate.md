@@ -1,8 +1,8 @@
 ---
 template: PuritatePage
 slug: puritate
-title: Apă pură de la natură
-featuredImage: https://ucarecdn.com/5a20b5d9-c447-4ca1-9706-c912d37faed4/-/preview/-/enhance/54/
+title: Rece ca gheața, din Munții Călimani
+featuredImage: https://ucarecdn.com/0c5aa97f-cf1c-457d-922d-d8e45231cfdb/-/preview/-/enhance/50/
 subtitle: Un pH identic cu cel al sângelui nostru
 section1: >-
   ## This is a container component
