@@ -2,7 +2,7 @@
 template: PuritatePage
 slug: puritate
 title: Rece ca gheața, din Munții Călimani
-featuredImage: https://ucarecdn.com/0c5aa97f-cf1c-457d-922d-d8e45231cfdb/-/preview/-/enhance/50/
+featuredImage: https://ucarecdn.com/a7e9c62d-75f7-4e97-a465-373d1f417998/
 subtitle: Un pH identic cu cel al sângelui nostru
 section1: >-
   ## This is a container component
