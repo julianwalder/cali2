@@ -1,14 +1,14 @@
 .GithubCorner {
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 3;
+  position: absolute;
+  top: 15vh;
+  right: 6vw;
+  z-index: 2;
 }
 .GithubCorner svg {
   color: #fff;
   border: 0;
-  max-width: 6rem;
-  max-height: 6rem;
+  max-width: 15rem;
+  max-height: 15rem;
 }
 
 .GithubCorner .octo-arm {
@@ -51,3 +51,7 @@
     transform: rotate(10deg);
   }
 }
+
+.cls-1 {
+  fill: #0C233F;
+  }

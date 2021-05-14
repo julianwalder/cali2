@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400, 600');
+@font-face {
+  font-family: 'Beauchef';
+  src: local('Beauchef'), url(../fonts/Beauchef.otf) format('truetype');
+}
 
 :root {
   --primary: #0c9afa;
@@ -71,6 +75,11 @@ h5,
 h6 {
   margin: 0;
   margin-bottom: 0.5em;
+}
+
+h1 {
+  font-family: Beauchef, serif;
+  letter-spacing: 5px;
 }
 
 h2 {
