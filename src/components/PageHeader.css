@@ -6,8 +6,9 @@
 }
 
 .PageHeader .BackgroundImage {
-  opacity: 0.8;
+  opacity: 1;
   height: 100%;
+  box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.0);
 }
 
 .PageHeader-large {
@@ -15,12 +16,13 @@
 }
 
 .PageHeader--Title {
-  font-size: 5rem;
+  font-size: 6rem;
   text-transform: uppercase;
   max-width: 600px;
   text-align: center;
   font-weight: 600;
-  color: #0c233f;
+  color: white;
+  text-shadow: 0 0 20px #0c233f;
   line-height: 110%;
   margin-bottom: 0;
   margin: auto;
