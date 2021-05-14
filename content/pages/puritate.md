@@ -2,7 +2,7 @@
 template: PuritatePage
 slug: puritate
 title: Rece ca gheața,
-featuredImage: https://ucarecdn.com/f8772751-c713-4008-b31f-f21cf80e430c/
+featuredImage: https://ucarecdn.com/5be1e530-c5d4-4020-bb9f-5bd68d26770f/
 subtitle: din Munții Călimani
 section1: >-
   ## This is a container component
