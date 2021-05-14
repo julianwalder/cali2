@@ -1,7 +1,7 @@
 .PageHeader {
   background-color: var(--white);
   color: white;
-  padding: 35vh 0;
+  padding: 40vh 0;
   height: 100vh;
 }
 
@@ -15,13 +15,15 @@
 }
 
 .PageHeader--Title {
-  font-size: max(4.5vh, 4.5vw);
+  font-size: 5rem;
   text-transform: uppercase;
+  max-width: 600px;
   text-align: center;
   font-weight: 600;
   color: #0c233f;
   line-height: 110%;
   margin-bottom: 0;
+  margin: auto;
 }
 
 .PageHeader--Subtitle {
@@ -36,17 +38,20 @@
   animation: fadeIn 0.5s ease-out;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 666px) {
   .PageHeader {
     padding: 35vh 0;
   }
   .PageHeader-large {
     padding: 35vh 0;
   }
+  .herotext {
+    max-width: 500px;
+
+  }
 }
-@media (min-width: 600px) {
+@media (min-width: 800px) {
 .herotext {
-  max-width: 50%;
   text-align: center;
 }
 }
