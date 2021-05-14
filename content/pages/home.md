@@ -1,9 +1,9 @@
 ---
 template: HomePage
 slug: ""
-title: Izvoarele Călimani
+title: Din natura sălbatică în jungla urbană
 featuredImage: https://ucarecdn.com/cad94955-a8eb-442a-9922-8708c7b80a9e/
-subtitle: Din natura sălbatică în jungla urbană
+subtitle: Apa izvoarelor Călimani
 section1: >-
   ## Apa care ți se potrivește
 
