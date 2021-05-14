@@ -25,7 +25,7 @@ const PageHeader = ({
         />
       )}
       <div className="container relative herotext">
-        <h1 className="PageHeader--Title">{title}</h1>
+        <h1 className="PageHeader--Title">{title}<br></br>{subtitle}</h1>
         {subtitle && (
           <Content className="PageHeader--Subtitle" src={subtitle} />
         )}
