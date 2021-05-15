@@ -51,6 +51,14 @@ export const HomePageTemplate = ({
 
     <section className="section">
       <div className="container">
+        <h2>Descoperă călătoria apei</h2>
+        <Gallery images={gallery} />
+      </div>
+    </section>
+
+
+    <section className="section">
+      <div className="container">
         <Content source={section2} />
       </div>
     </section>

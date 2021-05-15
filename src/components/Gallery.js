@@ -99,7 +99,9 @@ export default class Gallery extends Component {
                     alt={image.alt}
                   />
                 </div>
+                <div className="margin10">
                 {image.title && <figcaption>{image.title}</figcaption>}
+                </div>
               </div>
             ))}
           </div>
