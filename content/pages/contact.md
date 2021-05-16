@@ -1,9 +1,9 @@
 ---
 template: ContactPage
 slug: contact
-title: Datele noastre
+title: Contact
 featuredImage: https://ucarecdn.com/85494e5c-d7b4-48ff-b6e4-4b30a8aafede/
-subtitle: de contact
+subtitle: \- // -
 address: 404 James St, Burleigh Heads QLD 4220
 phone: 0987 123 456
 email: example@example.com
