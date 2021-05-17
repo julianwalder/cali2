@@ -30,25 +30,19 @@ accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
 gallery:
-  - alt: yellow rope image
+  - alt: Filtrată natural de rocă vulcanică
     image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
-    title: Picăturile de ploaie și fulgii de zăpadă cad pe crestele Munților
-      Călimani și se infiltrează în craterele vulcanilor adormiți
-    text: Picăturile de ploaie și fulgii de zăpadă cad pe crestele Munților Călimani
-      și se infiltrează în craterele vulcanilor adormiți
-  - alt: umbrellas
+    title: FILTRATĂ NATURAL DE ROCĂ VULCANICĂ
+    text: Filtrată lent prin straturi de roci vulcanice, izvorâtă din Munții
+      Călimani, în mijlocul unui ținut neatins de civilizație, apa Izvoarele
+      Călimani e pură de la natură, ca tu să te simți plin de viață, zi de zi.
+  - alt: Purificată de natură
     image: https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/
-    title: Timp de 10 ani, apa își face anevoios loc printre straturile rocilor
-      vulcanice, care o mineralizează ușor, o filtrează și o purifică în mod
-      natural
-    text: Picăturile de ploaie și fulgii de zăpadă cad pe crestele Munților Călimani
-      și se infiltrează în craterele vulcanilor adormiți
-  - alt: yellow ice cream
-    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
-    title: La cota 1150 m, pe versantul estic, apa iese din nou la suprafață, prin
-      izvoarele Q1 și Q2. E rece ca gheața, proaspătă și pură
-    text: Picăturile de ploaie și fulgii de zăpadă cad pe crestele Munților Călimani
-      și se infiltrează în craterele vulcanilor adormiți
+    title: PURIFICATĂ DE NATURĂ
+    text: Apa cu gust proaspăt din paharul tău a străbătut o călătorie de 10 ani,
+      printre straturile de rocă vulcanică ale Munților Călimani. Izvoarele Q1
+      și Q2 sunt situate într-o regiune virgină, împădurită, în vecinătatea
+      sudică a Parcului Național Călimani și a rezervației Dobreanu.
 meta:
   description: This is a meta description.
   title: Izvoarele Călimani
