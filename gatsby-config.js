@@ -100,6 +100,18 @@ module.exports = {
         showSpinner: false
       }
     },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `julianwalder`,
+      },
+    },
+    {
+      resolve: `gatsby-source-instagram-all`,
+      options: {
+        access_token: `IGQVJYX2JHZAnJtSk5TRkhZAMzFJTUxWcnpGSDR1a2pMUTBmSlZAGMmhyWG9rUmttMS02cXQyZAGJBLXVMemZAXcVRLR1VfQUh2WFBPLUs0R3dWWm5SY3g2bFVwR1VVTGxxbVdXZADJGNzRpM09sR0UxbEhSRQZDZD`,
+     },
+ },
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-netlify-cms',

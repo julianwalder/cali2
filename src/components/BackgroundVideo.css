@@ -38,7 +38,6 @@
   max-width: 750px;
   top: 50%;
   transform: translate(0, -50%);
-  font-weight: 600;
   margin: auto;
   text-align: center;
   text-transform: uppercase;
@@ -52,7 +51,6 @@
   top: 50%;
   left: 6 vw;
   transform: translate(0, -50%);
-  font-weight: 600;
   width: 75%;
   text-align: left;
   text-transform: uppercase;

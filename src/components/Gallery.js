@@ -8,8 +8,8 @@ import _kebabCase from 'lodash/kebabCase'
 
 import './Gallery.css'
 import 'react-photoswipe/lib/photoswipe.css'
-import ButtonCard from './ButtonCard'
-import Content from '../components/Content.js'
+// import ButtonCard from './ButtonCard'
+// import Content from '../components/Content.js'
 
 export const query = graphql`
   fragment Gallery on MarkdownRemark {
@@ -98,9 +98,9 @@ export default class Gallery extends Component {
                 role="button"
               >
                 <div>
-                <ButtonCard>
-                  <Content source="{section1}" />
-                </ButtonCard>
+                {/* <ButtonCard >   
+                //  <Content source="{section1}" />
+                // </ButtonCard> */}
                   <Image
                     resolutions="small"
                     src={image.image}
@@ -108,8 +108,8 @@ export default class Gallery extends Component {
                   />
                 </div>
                 <div className="margin10">
-                {image.title && <figcaption style =  {{fontSize: "3rem",}}>{image.title}</figcaption>}
-                {image.text && <figcaption>{image.text}</figcaption>}
+                {image.title && <figcaption className="cardtitle">{image.title}</figcaption>}
+                {image.text && <figcaption className="cardbody">{image.text}</figcaption>}
                 </div>
               </div>
             ))}
