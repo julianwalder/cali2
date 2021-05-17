@@ -152,7 +152,9 @@ blockquote {
   bottom: 0;
 }
 .taCenter {
+  position: relative;
   text-align: center;
+  z-index: 1;
 }
 
 .fontmic {
@@ -228,7 +230,7 @@ blockquote {
 /* Buttons */
 
 .Button {
-  background: var(--primary);
+  backdrop-filter: blur(10px);
   color: white;
   text-transform: uppercase;
   text-decoration: none;
@@ -237,14 +239,14 @@ blockquote {
   font-size: 1.4rem;
   display: inline-block;
   padding: 1.25rem 3rem;
-  border: none;
+  border: 2px solid;
   transition: all 0.2s ease;
   cursor: pointer;
   border-radius: var(--borderRadius);
 }
 .Button:hover,
 .Button:focus {
-  opacity: 0.95;
+  backdrop-filter: blur(10px) saturate(2);
   outline: none;
 }
 .Button[disabled] {

@@ -28,16 +28,21 @@
 }
 
 .BackgroundVideo--videoTitle {
+  font-family: 'Beauchef';
+  text-shadow: 0 0 60px #0c233f;
+  letter-spacing: 2px;
+  color: white;
   position: absolute;
+  left: 0px;
+  right: 0px;
+  max-width: 750px;
   top: 50%;
-  left: 6 vw;
   transform: translate(0, -50%);
   font-weight: 600;
-  width: 75%;
-  text-align: left;
+  margin: auto;
+  text-align: center;
   text-transform: uppercase;
-  font-size: max(7.5vh, 7.5vw);
-  color: #0c233f;
+  font-size: 6rem;
   line-height: 110%;
   margin-bottom: 0;
 }

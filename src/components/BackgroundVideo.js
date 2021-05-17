@@ -60,7 +60,7 @@ class BackgroundVideo extends Component {
             </video>
             {videoTitle && (
               <div className="herotext">
-              <div className="BackgroundVideo--videoTitle">{videoTitle}</div>
+              <div className="BackgroundVideo--videoTitle" style={{margin: "auto",}}>{videoTitle}</div>
               </div>
             )}
           </div>

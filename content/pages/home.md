@@ -34,16 +34,22 @@ gallery:
     image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
     title: Picăturile de ploaie și fulgii de zăpadă cad pe crestele Munților
       Călimani și se infiltrează în craterele vulcanilor adormiți
+    text: Picăturile de ploaie și fulgii de zăpadă cad pe crestele Munților
+      Călimani și se infiltrează în craterele vulcanilor adormiți
   - alt: umbrellas
     image: https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/
     title: Timp de 10 ani, apa își face anevoios loc printre straturile rocilor
       vulcanice, care o mineralizează ușor, o filtrează și o purifică în mod
       natural
+    text: Picăturile de ploaie și fulgii de zăpadă cad pe crestele Munților
+      Călimani și se infiltrează în craterele vulcanilor adormiți
   - alt: yellow ice cream
     image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
     title: La cota 1150 m, pe versantul estic, apa iese din nou la suprafață, prin
       izvoarele Q1 și Q2. E rece ca gheața, proaspătă și pură
+    text: Picăturile de ploaie și fulgii de zăpadă cad pe crestele Munților
+      Călimani și se infiltrează în craterele vulcanilor adormiți
 meta:
   description: This is a meta description.
-  title: Components Page
+  title: Izvoarele Călimani
 ---

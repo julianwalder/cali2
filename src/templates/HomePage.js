@@ -8,6 +8,7 @@ import Accordion from '../components/Accordion'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Gallery from '../components/Gallery'
 import Popup from '../components/Popup'
+import ButtonCTA from '../components/ButtonCTA'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({
@@ -51,19 +52,14 @@ export const HomePageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <h2>Descoperă călătoria apei</h2>
-        <Gallery images={gallery} />
-      </div>
-    </section>
-
-
-    <section className="section">
-      <div className="container">
         <Content source={section2} />
       </div>
     </section>
 
     <section className="BackgroundVideo-section section">
+      <ButtonCTA>
+          <Content source={section1} />
+      </ButtonCTA>
       <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
