@@ -40,7 +40,11 @@ export const HomePageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <h1 style = {{fontSize: "60px", textTransform: "uppercase", textAlign: "center", marginBottom: "6rem",}}>Descoperă călătoria apei</h1>
+        <h1 style = {{
+          fontSize: "60px", 
+          lineHeight: "110%",
+          textTransform: "uppercase", 
+          textAlign: "center", marginBottom: "6rem",}}>Descoperă călătoria apei</h1>
         <Gallery images={gallery} />
       </div>
     </section>
@@ -90,7 +94,8 @@ detoxifiere" />
     
         <h1 
         style = {{
-          fontSize: "60px", 
+          fontSize: "60px",
+          lineHeight: "110%",
           textTransform: "uppercase", 
           textAlign: "center", 
           marginBottom: "1rem",}}>
