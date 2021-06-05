@@ -53,7 +53,7 @@ export default ({ children, meta, title }) => {
           <Fragment>
             <Helmet
               defaultTitle={siteTitle}
-              titleTemplate={`%s | ${siteTitle}`}
+              titleTemplate={`${siteTitle} | %s`}
             >
               {title}
               <link href="https://ucarecdn.com" rel="preconnect" crossorigin />

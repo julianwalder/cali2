@@ -13,7 +13,7 @@ locations:
     mapLink: ""
 meta:
   description: This is a meta description.
-  title: Contact Page
+  title: Contact
 ---
 # Trimite-ne mesajul tău
 

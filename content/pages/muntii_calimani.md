@@ -45,5 +45,5 @@ gallery:
       sudică a Parcului Național Călimani și a rezervației Dobreanu.
 meta:
   description: This is a meta description.
-  title: Izvoarele Călimani
+  title: Munții Călimani
 ---
