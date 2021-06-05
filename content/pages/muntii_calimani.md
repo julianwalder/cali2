@@ -1,6 +1,6 @@
 ---
 template: MuntiiCalimani
-slug: "muntii_calimani"
+slug: muntii_calimani
 title: Munții Călimani
 featuredImage: https://ucarecdn.com/cad94955-a8eb-442a-9922-8708c7b80a9e/
 subtitle: puritate maximă
@@ -17,7 +17,7 @@ section3: Izvorăște din versantul estic al Munților vulcanici Călimani, înt
   ținut virgin, străjuit de păduri dese și protejat prin lege. De acolo, apa
   Izvoarele Călimani ajunge direct în paharul tău din jungla urbană, ca fiecare
   zi să curgă pe făgașul ei natural.
-video: https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/
+video: https://ucarecdn.com/0468f222-edff-4c0e-af3e-4b3982fbe7b3/
 videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
 videoTitle: Apă pură de la natură
 accordion:
