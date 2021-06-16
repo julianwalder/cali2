@@ -3,7 +3,7 @@ template: MuntiiCalimani
 slug: muntii_calimani
 title: Munții Călimani
 featuredImage: https://ucarecdn.com/cad94955-a8eb-442a-9922-8708c7b80a9e/
-subtitle: puritate minimă
+subtitle: puritate maximă
 section1: Peste 700 de specii de animale stăpânesc ținutul sălbatic din Munții
   Călimani. Aici, departe de orice sursă de poluare, apa a fost dintotdeauna
   purificată de natură. Neîncetat, de când lumea și pământul.
