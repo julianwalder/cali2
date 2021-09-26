@@ -1,9 +1,9 @@
 ---
 template: CatalogIndex
 slug: catalog
-title: Produsele noastre
-featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
-subtitle: This is the catalog page subtitle.
+title: " "
+featuredImage: https://ucarecdn.com/2a470149-7a4c-4130-a9c0-2018b55077f1/
+subtitle: Produse
 meta:
   description: This is a meta description.
   title: Catalog Page
