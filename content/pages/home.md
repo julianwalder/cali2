@@ -1,7 +1,7 @@
 ---
 template: HomePage
 slug: ""
-title: "   "
+title: "   Izvoarele Călimani"
 featuredImage: https://ucarecdn.com/cad94955-a8eb-442a-9922-8708c7b80a9e/
 subtitle: Gustă noutatea
 section1: Peste 700 de specii de animale stăpânesc ținutul sălbatic din Munții
