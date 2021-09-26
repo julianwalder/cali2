@@ -71,9 +71,10 @@ export class Navigation extends Component {
             <Logo />
           </Link>
           <div className="Nav--Links menublack">
-            <NavLink to="/muntii_calimani/">Munții Călimani</NavLink>
+            <NavLink to="/">Munții Călimani</NavLink>
             <NavLink to="/puritate/">Povestea Apei</NavLink>
             <NavLink to="/catalog/">Produse</NavLink>
+            {/*
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -109,7 +110,7 @@ export class Navigation extends Component {
                   ))}
                 </div>
               </span>
-            </div>
+            </div> */}
             
             <NavLink to="/contact/">Contact</NavLink>
           </div>
