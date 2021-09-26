@@ -31,7 +31,7 @@ accordion:
     title: Taciti lorem
 gallery:
   - alt: Filtrată natural de rocă vulcanică
-    image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
+    image: https://ucarecdn.com/feedce1d-1b65-4fcc-a056-e224acb76f79/
     title: FILTRATĂ NATURAL DE ROCĂ VULCANICĂ
     text: Filtrată lent prin straturi de roci vulcanice, izvorâtă din Munții
       Călimani, în mijlocul unui ținut neatins de civilizație, apa Izvoarele
