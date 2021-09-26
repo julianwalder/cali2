@@ -2,7 +2,7 @@
 template: CatalogIndex
 slug: catalog
 title: "   "
-featuredImage: https://ucarecdn.com/f09df308-ccd9-4d54-b046-61b2b7426f92/
+featuredImage: https://ucarecdn.com/99603ff0-338b-492e-bf5d-97338ab3fc3d/
 subtitle: \
 meta:
   description: This is a meta description.
