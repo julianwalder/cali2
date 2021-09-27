@@ -8,8 +8,8 @@ address: Bilbor, Harghita
 phone: 0800 030 378
 email: office@aqua-bilbor.ro
 locations:
-  - lat: 47.0656° N
-    lng: 25.4864° E
+  - lat: "47.0656"
+    lng: "25.4864"
     mapLink: ""
 meta:
   description: This is a meta description.
