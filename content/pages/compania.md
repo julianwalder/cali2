@@ -19,7 +19,7 @@ section1: >-
 
   Rămâi cu ochii pe noi. Ne pregătim să relansăm unul dintre cele mai iubite branduri de apă minerală. În 2022, vei putea gusta din nou Aqua Bilbor, apa minerală extrasă dintr-un izvor cu totul special, printre puținele aflate la o înălțime atât de mare.
 section2: ""
-video: ""
+video: https://ucarecdn.com/f95ab496-b9fd-4eaf-ad12-5821dfbbd10a/
 videoPoster: ""
 videoTitle: ""
 accordion: []
