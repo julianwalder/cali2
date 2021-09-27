@@ -248,7 +248,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Slug, name: slug, widget: hidden, default: 'puritate' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
-          - { label: Subtitle, name: subtitle, widget: markdown }
+          - { label: Subtitle, name: subtitle, widget: markdown, required: false }
           - { label: Section 1, name: section1, widget: markdown }
           - { label: Section 2, name: section2, widget: markdown }
           - { label: Section 2, name: section3, widget: markdown }
@@ -307,7 +307,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Slug, name: slug, widget: hidden, default: 'puritate' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
-          - { label: Subtitle, name: subtitle, widget: markdown }
+          - { label: Subtitle, name: subtitle, widget: markdown, required: false }
           - { label: Section 1, name: section1, widget: markdown }
           - { label: Section 2, name: section2, widget: markdown }
           - { name: video, label: video, widget: file }
@@ -365,7 +365,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Slug, name: slug, widget: hidden, default: 'puritate' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
-          - { label: Subtitle, name: subtitle, widget: markdown }
+          - { label: Subtitle, name: subtitle, widget: markdown, required: false }
           - { label: Section 1, name: section1, widget: markdown }
           - { label: Section 2, name: section2, widget: markdown }
           - { label: Section 2, name: section3, widget: markdown }
