@@ -1,15 +1,23 @@
 ---
 template: PuritatePage
 slug: compania
-title: Rece ca gheața,
+title: Aqua Bilbor
 featuredImage: https://ucarecdn.com/5be1e530-c5d4-4020-bb9f-5bd68d26770f/
-subtitle: din Munții Călimani
+subtitle: ""
 section1: >-
-  ## This is a container component
+  ## **Urmăm mereu cursul celor mai bune ape**
 
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
 
-  [Dictumst a ultrices mi]() a dignissim ad fermentum eget a nam et a blandit scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt vestibulum.
+  Aqua Bilbor, producătorul brandului Izvoarele Călimani, este o companie cu tradiție în valorificarea celor mai bune surse de apă minerală și de izvor din zona Munților Călimani, județul Harghita.
+
+
+  Suntem îndrăgostiți iremediabil de bogăția naturală a zonei și de apele pure care o străbat, așteptând să fie scoase la lumină. Ne propunem să le aducem pe cele mai bune, din inima munților, direct în casa ta.
+
+
+  ## **Ți-e sete de mai mult?**
+
+
+  Rămâi cu ochii pe noi. Ne pregătim să relansăm unul dintre cele mai iubite branduri de apă minerală. În 2022, vei putea gusta din nou Aqua Bilbor, apa minerală extrasă dintr-un izvor cu totul special, printre puținele aflate la o înălțime atât de mare.
 section2: >-
   ## You can use videos, images and text.
 
