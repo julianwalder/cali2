@@ -18,7 +18,7 @@ section3: Izvorăște din versantul estic al Munților vulcanici Călimani, înt
   Izvoarele Călimani ajunge direct în paharul tău din jungla urbană, ca fiecare
   zi să curgă pe făgașul ei natural.
 video: https://ucarecdn.com/eb9e653e-60a8-403f-957b-5edb93594880/
-videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
+videoPoster: https://ucarecdn.com/1d3a6969-cf24-4e4b-a91c-0c3cb483be5a/
 videoTitle: Apă pură de la natură
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
