@@ -1,6 +1,6 @@
 ---
 template: PuritatePage
-slug: puritate
+slug: compania
 title: Rece ca gheața,
 featuredImage: https://ucarecdn.com/5be1e530-c5d4-4020-bb9f-5bd68d26770f/
 subtitle: din Munții Călimani

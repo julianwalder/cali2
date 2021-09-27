@@ -72,7 +72,7 @@ export class Navigation extends Component {
           </Link>
           <div className="Nav--Links menublack">
             <NavLink to="/">Munții Călimani</NavLink>
-            <NavLink to="/puritate/">Povestea Apei</NavLink>
+            <NavLink to="/compania/">Compania</NavLink>
             <NavLink to="/catalog/">Produse</NavLink>
             {/*
             <div
