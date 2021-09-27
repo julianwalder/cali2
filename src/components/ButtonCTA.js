@@ -32,7 +32,10 @@ class ButtonCTA extends Component {
         <div className="taCenter" style={{marginTop: "66vh",}}>
           <div
             className="Button"
-            onClick={this.togglePopup.bind(this)}
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href='/catalog/';
+              }}
             onKeyDown={this.handleKeyDown}
             tabIndex={0}
             aria-label="Toggle Popup"
