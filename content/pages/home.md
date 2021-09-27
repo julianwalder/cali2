@@ -44,6 +44,8 @@ gallery:
       și Q2 sunt situate într-o regiune virgină, împădurită, în vecinătatea
       sudică a Parcului Național Călimani și a rezervației Dobreanu.
 meta:
-  description: This is a meta description.
-  title: Despre Noi
+  description: Filtrată lent prin straturi de roci vulcanice, izvorâtă din Munții
+    Călimani, în mijlocul unui ținut neatins de civilizație, apa Izvoarele
+    Călimani e pură de la natură, ca tu să te simți plin de viață, zi de zi.
+  title: Izvoarele Călimani
 ---
