@@ -2,10 +2,7 @@ import React, { Component } from 'react'
 import GoogleMapReact from 'google-map-react'
 import { MapPin } from 'react-feather'
 
-let mapkey = ''
-if (process.env.GATSBY_NETLIFY_MAP_KEY) {
-  mapkey = process.env.GATSBY_NETLIFY_MAP_KEY
-}
+let mapkey = 'AIzaSyDKXT3El7H0u4bvVxTleAF3HxiLoupKL8g'
 
 class GoogleMap extends Component {
   static defaultProps = {
@@ -13,7 +10,7 @@ class GoogleMap extends Component {
       lat: 47.0656,
       lng: 25.4864
     },
-    zoom: 16
+    zoom: 10
   }
 
   render() {
