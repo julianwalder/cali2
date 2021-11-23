@@ -13,3 +13,4 @@ meta:
   title: Apă plată 0,5 litri
 ---
 ![Hidratează cu blândețe și te ține în mișcare. Filtrată natural de rocile vulcanice pentru a-ți oferi energie întreaga zi.](https://ucarecdn.com/b695c107-af74-4300-bcea-fce0336ea618/ "Hidratează cu blândețe și te ține în mișcare. Filtrată natural de rocile vulcanice pentru a-ți oferi energie întreaga zi.")
+Hidratează cu blândețe și te ține în mișcare. Filtrată natural de rocile vulcanice pentru a-ți oferi energie întreaga zi.
