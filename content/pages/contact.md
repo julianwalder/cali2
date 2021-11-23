@@ -4,7 +4,7 @@ slug: contact
 title: Contact
 featuredImage: https://ucarecdn.com/85494e5c-d7b4-48ff-b6e4-4b30a8aafede/
 subtitle: ""
-address: Bilbor, Harghita
+address: Aqua Bilbor SRL
 phone: 0800 030 378
 email: office@aqua-bilbor.ro
 locations:
