@@ -12,6 +12,8 @@ subtitle: >-
 
   Descoperă gustul proaspăt și delicat al apei Izvoarele Călimani, în variantele plată și carbo.
 meta:
-  description: This is a meta description.
-  title: Catalog Page
+  description: Hidratare mereu la îndemână, fie că ești în mișcare și ai nevoie de
+    o sticlă ușoară sau vrei să ai pe birou cantitatea ideală pentru întreaga
+    zi.
+  title: Produse
 ---
