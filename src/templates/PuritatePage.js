@@ -4,9 +4,10 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
 import Layout from '../components/Layout.js'
-import Accordion from '../components/Accordion'
+// import Accordion from '../components/Accordion'
 import BackgroundVideo from '../components/BackgroundVideo'
-import Gallery from '../components/Gallery'
+import ButtonCTA from '../components/ButtonCTA'
+// import Gallery from '../components/Gallery'
 
 // Export Template for use in CMS preview
 export const PuritatePageTemplate = ({
@@ -35,6 +36,9 @@ export const PuritatePageTemplate = ({
     </section>
 
     <section className="BackgroundVideo-section section">
+      <ButtonCTA>
+          <Content source={section1} />
+      </ButtonCTA>
       <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>

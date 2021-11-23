@@ -86,10 +86,10 @@ export const HomePageTemplate = ({
     <section className="section narrow">
       <div className="container">
         <Content source="Apa Izvoarele Călimani hidratează corpul cu delicatețe și este
-asimilată ușor. Cu un pH identic cu cel al sângelui nostru, cu conținut
+asimilată ușor. Cu un Cu conținut
 scăzut de săruri minerale și duritate scăzută, apa Izvoarele Călimani
 hidratează corpul cu delicatețe și este recomandată în dietele
-hiposodice, pentru prepararea hranei sugarilor sau în curele de
+hiposodice și în curele de
 detoxifiere" />
     
         <h1 

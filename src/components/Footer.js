@@ -15,7 +15,7 @@ export default () => (
             Timp de 10 ani, apa își face anevoios loc printre straturile rocilor vulcanice, 
             care o mineralizează ușor, o filtrează și o purifică în mod natural. 
             O îmbuteliem la sursă și o aducem în mijlocul orașului, 
-            pentru ca tu să te simți mereu la înălțime: acasă, la sală sau pe drum.</p>
+            pentru ca tu să te simți mereu la înălțime: acasă, în timpul antrenamentului sau pe drum.</p>
         </span>
       </div>
       <div style={{

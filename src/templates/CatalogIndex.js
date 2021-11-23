@@ -80,6 +80,10 @@ export const CatalogIndexTemplate = ({
           {!!products.length && (
             <section className="section">
               <div className="container">
+              <p>Hidratare mereu la îndemână, fie că ești în mișcare și ai nevoie de o sticlă ușoară sau vrei să ai pe birou cantitatea ideală pentru întreaga zi. Ai de ales între sticlele de 0,5L, 1,5L și 2L, în funcție de nevoile tale și de cât de sete îți e.
+Descoperă gustul proaspăt și delicat al apei Izvoarele Călimani, în variantele plată și carbo.</p>
+              </div>
+              <div className="container">
                 <ProductSection products={filteredProducts} />
               </div>
             </section>
