@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact
-featuredImage: https://ucarecdn.com/85494e5c-d7b4-48ff-b6e4-4b30a8aafede/
+featuredImage: https://ucarecdn.com/1cb91e99-b6b9-42a1-95a4-8deb4dab5c22/
 subtitle: ""
 address: Aqua Bilbor SRL
 phone: 0800 030 378
