@@ -2,7 +2,7 @@
 template: PuritatePage
 slug: compania
 title: Aqua Bilbor
-featuredImage: https://ucarecdn.com/5be1e530-c5d4-4020-bb9f-5bd68d26770f/
+featuredImage: https://ucarecdn.com/5681ecbf-c501-4f35-8f82-fb014488d812/
 subtitle: ""
 section1: >-
   ## **Urmăm mereu cursul celor mai bune ape**
