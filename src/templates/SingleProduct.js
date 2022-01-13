@@ -27,18 +27,9 @@ export const SingleProductTemplate = ({
         </Link>
         <div className="SingleProduct--Content relative">
           <div className="SingleProduct--Meta">
-            {date && (
-              <time
-                className="SingleProduct--Meta--Date"
-                itemProp="dateCreated pubdate datePublished"
-                date={date}
-              >
-                {date}
-              </time>
-            )}
+            
             {categories && (
               <Fragment>
-                <span>|</span>
                 {categories.map((cat, index) => (
                   <span
                     key={cat.category}

@@ -25,10 +25,10 @@ export default () => (
         color: '#d8c69d',}} className="taCenter">
       © {new Date().getFullYear()} Toate drepturile rezervate. {' '}
           <a href="https://aqua-bilbor.ro">Aqua Bilbor S.R.L.</a> Societate cu Raspundere Limitată.<br></br>
-Sediu social: Sat Tunari, Comuna Tunari, Str. 1 Decembrie Nr. 144 - 148, Biroul Nr. 1, Etaj 1, Judeţul Ilfov.<br></br>
-Număr din registrul comerțului: J23/4278/2019.<br></br>
+          Sediu social: Str. Grigore Gafencu, Nr. 78-84, Vila C4, Sector 1, București<br></br>
+Număr din registrul comerțului: J40/281/2022. 
 Cod unic de înregistrare: 39818243.<br></br>
-Capital social: 10.284.000 lei
+Capital social: 13.284.000 lei
       </div>
     </footer>
   </div>
