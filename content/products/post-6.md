@@ -1,6 +1,6 @@
 ---
 template: SingleProduct
-title: 0,5 L
+title: 0,5 L plată
 status: Published
 date: 2021-09-16
 featuredImage: https://ucarecdn.com/29b4a78c-9782-4e8c-b1f7-477a31a959e9/
