@@ -62,7 +62,7 @@ export const CatalogIndexTemplate = ({
       }
 
       return (
-        <main className="Catalog">
+        <main className="Catalog" style={{WebkitHyphens: "auto",}}>
           <PageHeader
             title={title}
             subtitle={subtitle}
