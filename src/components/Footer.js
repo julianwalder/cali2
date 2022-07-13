@@ -28,7 +28,7 @@ export default () => (
           Sediu social: Str. Grigore Gafencu, Nr. 78-84, Vila C4, Sector 1, București<br></br>
 Număr din registrul comerțului: J40/281/2022. 
 Cod unic de înregistrare: 39818243.<br></br>
-Capital social: 13.284.000 lei
+Capital social: 15.784.000 lei
       </div>
     </footer>
   </div>
